@@ -1,279 +1,242 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-
-  
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  
-  <meta http-equiv="Content-Language" content="ru">
-
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta http-equiv="Content-Language" content="ru">
   <base href="">
-  
   <link rel="shortcut icon" href="favicon.ico">
-
-  
   <meta name="Reply-to" content="post4ytb@gmail.com">
-
-  
   <meta name="Keywords" content="GSM-модем">
-
-  
-  <meta name="Description" content="GSM-модем"><title>GSM/GPRS управление и сигнализация</title></head><body style="background-color: rgb(192, 192, 192);"><big><big><big><big><a href="../projects/index.html" target="_blank">Главная</a></big></big></big></big><big><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <meta name="Description" content="GSM-модем"><title>GSM/GPRS control and alarm</title></head><body style="background-color: rgb(192, 192, 192);"><big><big><big><big><a href="../projects/index.html" target="_blank">Home</a></big></big></big></big><big><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp; &nbsp; &nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </big></big><big><big><big><big><a style="font-style: italic; font-weight: bold;" href="mailto:post4ytb@gmail.com" target="_blank"><small><small>post4ytb@gmail.com</small></small></a></big></big></big></big><br>
-<h1 style="text-align: left;">GSM/GPRS модем.</h1>
+<h1 style="text-align: left;">GSM/GPRS modem.</h1>
 
-<a href="img/GSM_USBconnected.jpg" target="_blank"><img title="GSM/GPRS модем" style="border: 0px solid ; width: 265px; height: 218px;" alt="GSM/GPRS модем" src="img/GSM_USBconnected.jpg" align="left" hspace="20" vspace="5"></a><br>
-
-<br>
-
+<a href="img/GSM_USBconnected.jpg" target="_blank"><img title="GSM/GPRS modem" style="border: 0px solid ; width: 265px; height: 218px;" alt="GSM/GPRS modem" src="img/GSM_USBconnected.jpg" align="left" hspace="20" vspace="5"></a><br><br>
 <ul>
 
-  <li>USB для подключения к компьютеру,</li>
-  <li>интегрированная антенна / внешняя антенна,</li>
-  <li>возможность подключения аккумулятора,</li>
-  <li>ионистор,</li>
-  <li>RS-232 / TTL интерфейс для подключения к источнику данных,</li>
-  <li>GSM / GPRS передача данных.,</li>
-  <li>питание от источника +5В или по USB от компьютера, или от
-аккумулятора (подзарядка через
-модуль GSM)</li>
+  <li>USB for computer connection,</li>
+  <li>integrated antenna / external antenna,</li>
+  <li>possibility of connecting a battery,</li>
+  <li>ionistor,</li>
+  <li>RS-232 / TTL interface for data source connection,</li>
+  <li>GSM / GPRS data transmission.,</li>
+  <li>powered by a +5V source, via USB from a computer, or from a
+battery (recharging through the
+GSM module)</li>
 </ul>
 
-Реализованное применение: <br>
+Implemented application: <br>
+several MODEMS, <br>
+a group of heat meters with M-Bus is connected to each modem through an RS-232 &lt;&gt;
+M-Bus converter.<br>
 
-несколько МОДЕМОВ, <br>
-
-к каждому модему через преобразователь RS-232 &lt;&gt;
-M-Bus&nbsp;подключена группа теплосчетчиков с M-Bus.<br>
-
-Одна группа теплосчетчиков с модемом&nbsp; устанавливается в
-нескольких домах микрорайона.<br>
+One group of heat meters with a modem&nbsp; is installed in
+several houses of the neighborhood.<br>
 
 <span style="font-weight: bold;"><br>
-</span><a href="img/app_gsm.jpg" target="_blank"><img title="GSM/GPRS модем" style="border: 0px solid ; width: 240px; height: 146px;" alt="" src="img/app_gsm.jpg" align="left" hspace="20" vspace="5"></a><span style="font-weight: bold;"></span><span style="font-weight: bold;">Приложения:</span><br>
+</span><a href="img/app_gsm.jpg" target="_blank"><img title="GSM/GPRS modem" style="border: 0px solid ; width: 240px; height: 146px;" alt="" src="img/app_gsm.jpg" align="left" hspace="20" vspace="5"></a><span style="font-weight: bold;"></span><span style="font-weight: bold;">Applications:</span><br>
 
 <span style="font-weight: bold;"><br>
-вариант 1</span>: кодированные <span style="font-weight: bold;">SMS</span>
-с информацией от каждого
-теплосчетчика передаются в
-центр по запросам, <br>
+option 1</span>: encoded <span style="font-weight: bold;">SMS</span>
+with information from each
+heat meter are transmitted to the
+center upon requests, <br>
 
-SMS принимаются, декодируются и пополняют базу данных;<br>
+SMS are received, decoded, and update the database;<br>
 
-На картинке тестовое приложение - в файл Excel оно добавляло записи,
-полученные в результате обработки принимаемых от модемов SMS<br>
-
+The picture shows a test application - it added records to an Excel file
+obtained as a result of processing SMS received from modems<br>
 <br>
-
-<span style="font-weight: bold;">вариант 2</span>: информация от
-теплосчётчиков <span style="font-weight: bold;">GSM/GPRS модемом</span>
-преобразуется в <span style="font-weight: bold;">файлы</span>
-и передаётся на <span style="font-weight: bold;">ftp-сервер;</span>
-полный доступ к данным на сервере имеет администратор (формирование
-базы данных, счетов для владельцев счётчиков); данные от своих
-счётчиков могут запросить владельцы счётчиков.<br>
-
+<span style="font-weight: bold;">option 2</span>: information from
+heat meters is converted by a <span style="font-weight: bold;">GSM/GPRS modem</span>
+into <span style="font-weight: bold;">files</span>
+and transmitted to an <span style="font-weight: bold;">ftp server;</span>
+the administrator has full access to the data on the server (generation
+of the database, bills for meter owners); data from their own
+meters can be requested by the meter owners.<br>
 <br>
 
 <div style="text-align: center;">
 <hr style="width: 100%; height: 2px;">
-<h1 style="text-align: left;"><small><span lang="EN-US"><b><big>Дистанционное
-управление и сигнализация по <b><big><small>GSM (далее - ДУ GSM)</small>
+<h1 style="text-align: left;"><small><span lang="EN-US"><b><big>Remote
+control and alarm via <b><big><small>GSM (hereinafter - GSM RC)</small>
 </big></b></big></b></span></small></h1>
 <div style="text-align: left;"><small>
 </small></div>
-<h1 style="text-align: left;"><small><small><span style="" lang="EN-US"><b><big><span style="font-style: italic;">старый
-мобильный
-телефон в качестве GSM модема</span></big></b></span></small><span style="" lang="EN-US"><br>
+<h1 style="text-align: left;"><small><small><span style="" lang="EN-US"><b><big><span style="font-style: italic;">old
+mobile
+phone as a GSM modem</span></big></b></span></small><span style="" lang="EN-US"><br>
 </span></small></h1>
 <div style="text-align: left; margin-left: 0px; width: 2491px;">
-<span style="font-weight: bold;">Назначение
-и
-состав ДУ GSM&nbsp;</span><span style="font-weight: bold;"></span> (<span style="font-weight: bold;">GSM
-управление</span>, <span style="font-weight: bold;">GSM
-сигнализация)</span><br>
+<span style="font-weight: bold;">Purpose
+and
+composition of GSM RC&nbsp;</span><span style="font-weight: bold;"></span> (<span style="font-weight: bold;">GSM
+control</span>, <span style="font-weight: bold;">GSM
+alarm)</span><br>
 <span style="" lang="EN-US"></span></div>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"><span style="font-weight: bold; color: rgb(204, 0, 0);">В
-качестве GSM-модема может использоваться какой-либо старый мобильный
-телефон, поддерживающий интерфейс UART (как COM-порт, но низковольтный).</span><br>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"><span style="font-weight: bold; color: rgb(204, 0, 0);">An old mobile phone that supports the UART interface (like a COM port, but low-voltage) can be used as a GSM modem.</span><br>
 </span></p>
-<p style="text-align: left;" class="MsoNormal"><a href="img/modem_C35_uC.jpg"><img title="GSM/GPRS модем" style="border: 0px solid ; width: 266px; height: 194px;" alt="GSM/GPRS модем" src="img/modem_C35_uC.jpg" align="left" hspace="10" vspace="5"></a></p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold; text-decoration: underline;"></span></span><span style="" lang="EN-US"> </span><span style="" lang="EN-US">п</span><span style="" lang="EN-US">редназначено
-для организации </span><span style="" lang="EN-US">оповещения
-и </span><span style="" lang="EN-US">дистанционного
-управления
-электрическим оборудованием дачи, квартиры и других бытовых объектов</span><span style="" lang="EN-US"> по каналу GSM </span><span style="" lang="EN-US">.<br>
+<p style="text-align: left;" class="MsoNormal"><a href="img/modem_C35_uC.jpg"><img title="GSM/GPRS modem" style="border: 0px solid ; width: 266px; height: 194px;" alt="GSM/GPRS modem" src="img/modem_C35_uC.jpg" align="left" hspace="10" vspace="5"></a></p>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold; text-decoration: underline;"></span></span><span style="" lang="EN-US"> </span><span style="" lang="EN-US">is</span><span style="" lang="EN-US"> designed
+for organizing </span><span style="" lang="EN-US">notification
+and </span><span style="" lang="EN-US">remote
+control
+of electrical equipment in a country house, apartment, and other domestic facilities</span><span style="" lang="EN-US"> via GSM channel</span><span style="" lang="EN-US">.<br>
 </span></p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">В
-устройстве&nbsp;</span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span>используется
-15 линий ввода-вывода, количество линий для управления и для
-сигнализации определяет пользователь.<span style="" lang="EN-US"></span><span style="" lang="EN-US"></span></p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US">В составе
-</span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ
-GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold; text-decoration: underline;"></span></span><span style="" lang="EN-US"></span>
-(максимальная комплектация)<span style="" lang="EN-US"></span><br>
-<span style="" lang="EN-US">- мобильный телефон
-какой-либо устаревшей
-модели, поддерживающий </span><span lang="EN-US">интерфейс&nbsp; UART,<br>
-- зарядное устройство для мобильного телефона или блок питания,<br>
-- кабель, соединяющий мобильный телефон и контроллер,<br>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">The
+device&nbsp;</span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span>uses
+15 I/O lines; the number of lines for control and for
+alarm is determined by the user.</span></p>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US">Composition of
+</span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM
+RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold; text-decoration: underline;"></span></span><span style="" lang="EN-US"></span>
+(maximum configuration)<span style="" lang="EN-US"></span><br>
+<span style="" lang="EN-US">- an old mobile phone
+model supporting the </span><span lang="EN-US">UART interface,<br>
+- a mobile phone charger or power supply unit,<br>
+- a cable connecting the mobile phone and the controller,<br>
 </span><span style="" lang="EN-US">-
-контроллер, управляющий мобильным
-телефоном и силовым блоком,<br>
-</span><span style="" lang="EN-US">- силовой
-блок - симисторы,
-коммутирующие напряжение сети для включения/выключения управляемого
-электрооборудования,<br>
-- адаптер для подключения контроллера к компьютеру (если потребуется
-самостоятельное перепрограммирование контроллера заказчиком при
-индивидуальных требованиях к функциям контроллера).<br>
+a controller that controls the mobile
+phone and the power unit,<br>
+</span><span style="" lang="EN-US">- a power
+unit - triacs that
+commute the mains voltage to turn the controlled
+electrical equipment on/off,<br>
+- an adapter for connecting the controller to a computer (if independent
+reprogramming of the controller by the customer is required for
+individual requirements for the controller functions).<br>
 </span></p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">Возможно
-приобретение
-отдельно контроллера, а также контроллера с разными сочетаниях
-комплектующих изделий.</span></p>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">It is possible
+to purchase
+the controller separately, as well as the controller with different combinations
+of components.</span></p>
 <p style="text-align: left;" class="MsoNormal"><span style="font-weight: bold;"><br>
-Работа
-</span><span style="font-weight: bold;">ДУ GSM</span></p>
-<p style="text-align: left;" class="MsoNormal"><span style="font-weight: bold;"></span>Для
-управления
-электрическим оборудованием на номер мобильного телефона, входящего в
-состав <span style="font-weight: bold;">ДУ GSM</span><span style="font-weight: bold;"></span>, передается
-SMS-сообщение, содержащее управляющую
-команду. При получении SMS мобильный телефон по кабелю передает это
-сообщение в контроллер <span style="font-weight: bold;">ДУ GSM</span><span style="font-weight: bold;"></span>, который
-принимает и обрабатывает его.<br>
-Если SMS-сообщение не содержит команды, оно игнорируется. <br>
-<span style="font-weight: bold;">ДУ GSM</span><span style="font-weight: bold;"></span> имеет 15
-выходов, к каждому из которых можно подключить либо
-управляемое электрическое оборудование (см.Управление), либо датчик
-сигнализации (см.Сигнализация). Выбор числа контактов для управления и
-для сигнализации выполняется на этапе заказа устройства.<br>
-Если в мобильном телефоне аккумуляторная батарея подключена к разъёму
-телефона, <span style="font-weight: bold;">ДУ GSM</span><span style="font-weight: bold;"></span> питается от
-аккумулятора мобильного телефона или от автономного блока питания.<br>
-<span style="outline-color: navy ! important; outline-style: dashed ! important; outline-width: 2px ! important;" lang="EN-US"></span>Мобильный телефон постоянно находится во
-включенном состоянии и может быть постоянно подключен к зарядному
-устройству для компенсации разряда аккумулятора.
+Operation
+</span><span style="font-weight: bold;">of GSM RC</span></p>
+<p style="text-align: left;" class="MsoNormal"><span style="font-weight: bold;"></span>To control
+the electrical equipment, an SMS message containing a control
+command is sent to the mobile phone number included in
+the <span style="font-weight: bold;">GSM RC</span>. Upon receiving the SMS, the mobile phone transmits this
+message via cable to the <span style="font-weight: bold;">GSM RC</span> controller, which
+receives and processes it.<br>
+If the SMS message does not contain a command, it is ignored. <br>
+<span style="font-weight: bold;">GSM RC</span> has 15
+outputs, each of which can be connected to either
+controlled electrical equipment (see Control) or an alarm
+sensor (see Alarm). The choice of the number of pins for control and
+for alarm is made during the device ordering stage.<br>
+If the rechargeable battery in the mobile phone is connected to the phone connector,
+the <span style="font-weight: bold;">GSM RC</span> is powered by the mobile phone battery or from an independent power supply unit.<br>
+<span style="outline-color: navy ! important; outline-style: dashed ! important; outline-width: 2px ! important;" lang="EN-US"></span>The mobile phone is constantly kept turned on and can be permanently connected to the charger
+to compensate for the battery discharge.
 <span style="font-style: italic;"><span style="font-weight: bold;"></span></span><br>
 <span style="" lang="EN-US"><span style="font-style: italic;"><span style="font-weight: bold;"><br>
 </span></span><span style="font-weight: bold;"><span style="font-style: italic;"></span></span></span><span style="" lang="EN-US">
-Если входящее SMS-сообщение содержит команду - она обрабатывается и
-выполняется устройством </span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US">.<br>
+If the incoming SMS message contains a command - it is processed and
+executed by the </span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"> device.<br>
 </span></p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold;"><span style="font-style: italic;">Управление</span>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold;"><span style="font-style: italic;">Control</span>
 </span><br>
-При поступлении SMS-сообщения, содержащего команду управления одним или
-несколькими устройствами (например, включить отопление на 10 минут,
-полив грядок - на 15 минут)&nbsp; </span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span><span style="" lang="EN-US"> отрабатывает
-команду, сопровождая ее звонком
-на
-номер телефона, с которого было
-отправлено SMS-сообщение, звонок подтверждает, что в полученном
-SMS-сообщении обнаружена команда и она выполняется.<br>
-Пользователь, отправивший сообщение, контролирует номер, с которого был
-сделан звонок, не снимая при этом трубки (в этом случае подтверждающий
-звонок с </span><span lang="EN-US">мобильн</span><span style="" lang="EN-US">ого телефона </span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span><span style="" lang="EN-US"> не потребует
-оплаты).<br>
+Upon receipt of an SMS message containing a command to control one or
+several devices (for example, turn on the heating for 10 minutes,
+watering the garden beds for 15 minutes),&nbsp; </span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"> executes
+the command, accompanying it with a call to the phone number from which the
+SMS message was sent; the call confirms that a command was detected in the received
+SMS message and is being executed.<br>
+The user who sent the message monitors the number from which the
+call was made without picking up the receiver (in this case, the confirming
+call from the </span><span lang="EN-US">mobile</span><span style="" lang="EN-US"> phone of the </span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span><span style="" lang="EN-US"> will not require
+any payment).<br>
 </span><span lang="EN-US"><span style="font-style: italic;"><span style="font-weight: bold;"><br>
-</span></span><span style="font-weight: bold;"><span style="font-style: italic;">Прослушивание</span> </span><br>
-При звонке на </span><span lang="EN-US">мобильн</span><span lang="EN-US">ый телефон, подключенный к устройству </span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span><span style="" lang="EN-US">, устройство
-выполняет автоматическое соединение,</span><span style="" lang="EN-US">
-вы можете слышать, что происходит в месте размещения телефона..</span></p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="outline-color: navy ! important; outline-style: dashed ! important; outline-width: 2px ! important;" lang="EN-US"></span><span lang="EN-US">Микрофонный усилитель мобильн</span><span lang="EN-US">ых телефонов
-имеет автоматическую регулировку усиления, при низком уровне шума будут
-слышны тихие звуки. Старайтесь не размещать </span><span lang="EN-US">мобильн</span><span lang="EN-US">ый телефон вблизи
-источников шума, таких как холодильник.<br>
+</span></span><span style="font-weight: bold;"><span style="font-style: italic;">Listening</span> </span><br>
+When calling the </span><span lang="EN-US">mobile</span><span lang="EN-US"> phone connected to the device </span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span><span style="" lang="EN-US">, the device
+performs an automatic connection,</span><span style="" lang="EN-US">
+and you can hear what is happening in the phone's location..</span></p>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="outline-color: navy ! important; outline-style: dashed ! important; outline-width: 2px ! important;" lang="EN-US"></span><span lang="EN-US">The microphone amplifier of mobile</span><span lang="EN-US"> phones
+has automatic gain control; at low noise levels, quiet sounds will be
+audible. Try not to place the </span><span lang="EN-US">mobile</span><span lang="EN-US"> phone near
+noise sources, such as a refrigerator.<br>
 </span></p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold; font-style: italic;">Сигнализация</span><br>
-К контроллеру </span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span><span style="" lang="EN-US"> можно
-подключить несколько датчиков, при срабатывании
-которых (размыкании или замыкании контактов) устройство передаст
-соответствующее SMS-сообщение на хранящийся в его памяти номер телефона.<br>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold; font-style: italic;">Alarm</span><br>
+Several sensors can be connected to the </span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span><span style="" lang="EN-US"> controller; upon their triggering
+(opening or closing of contacts), the device will transmit
+a corresponding SMS message to the phone number stored in its memory.<br>
 </span></p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">Номер
-телефона, на
-который передается сообщение о срабатывании сигнализации,&nbsp;
-заносится пользователем в память </span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"> , для этого
-нужно передать SMS-сообщение с номером этого телефона.</span><span style="" lang="EN-US"> </span></p>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">The phone
+number to
+which the alarm message is transmitted is&nbsp;
+entered by the user into the memory of the </span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"> ; to do this,
+you need to send an SMS message with this phone number.</span><span style="" lang="EN-US"> </span></p>
 <p style="text-align: left;" class="MsoNormal">
 </p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">SMS-сообщения
-в
-</span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ
-GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span><span style="" lang="EN-US"> можно передавать не только с другого
-мобильного
-телефона, но и от компьютера, подключенный к сети
-Интернет, с сайтов операторов мобильной связи или через службу "SMS по
-e-mail", в последнем случае подтверждение получения команды звонком не
-производится.</span><br>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">SMS messages
+to the
+</span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM
+RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span><span style="" lang="EN-US"> can be transmitted not only from another
+mobile
+phone but also from a computer connected to the
+Internet, from mobile operators' websites, or via the "SMS via
+e-mail" service; in the latter case, no confirmation of command receipt via a call is
+made.</span><br>
 </p>
-<p style="text-align: left;" class="MsoNormal">Датчики
-могут выбираться и устанавливаться заказчиком - датчики задымления,
-температуры, влажности, концевые выключатели, срабатывающие при
-открывании
-двери или выбивании стекла, датчики вибрации, движения и т.д.</p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"><span style="font-weight: bold; font-style: italic;">Определение
-числа линий управления и сигнализации.</span><br>
-</span><span style="" lang="EN-US">Пятнадцать
-линий ввода-вывода </span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"> могут работать
-и как выходные линии для&nbsp; управления, и как входные линии для
-сигнализации. Пользователь может самостоятельно определить число линий,
-отводимых для обслуживания сигнализации, остальные линии будут работать
-на управление. Выбор числа линий для сигнализации выполняется
-посредством отправки SMS-сообщения на телефон, к которому подключено </span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span lang="EN-US">. Этим же </span><span style="" lang="EN-US">SMS-сообщением
-передается время в минутах от
-момента включения устройства до включения сигнализации - это время
-необходимо для того, чтобы вы включили сигнализацию и успели,
-например,&nbsp; закрыть дверь с одним из датчиков сигнализации до
-того,
-как будет отправлено SMS-сообщения о срабатывании сигнализации.<br>
+<p style="text-align: left;" class="MsoNormal">Sensors
+can be chosen and installed by the customer - smoke,
+temperature, humidity sensors, limit switches triggered when
+opening a
+door or breaking a glass, vibration, motion sensors, etc.</p>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"><span style="font-weight: bold; font-style: italic;">Determining
+the number of control and alarm lines.</span><br>
+</span><span style="" lang="EN-US">Fifteen
+I/O lines of </span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"> can operate
+both as output lines for control and as input lines for
+alarm. The user can independently determine the number of lines allocated for alarm maintenance; the remaining lines will work
+for control. The choice of the number of lines for alarm is performed
+by sending an SMS message to the phone to which the </span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span lang="EN-US"> is connected. This same </span><span style="" lang="EN-US">SMS message
+transmits the time in minutes from
+the moment the device is turned on until the alarm is armed - this time
+is necessary for you to turn on the alarm and have time,
+for example,&nbsp; to close the door with one of the alarm sensors before
+an SMS message about the alarm triggering is sent.<br>
 </span></p>
 <span style="font-weight: bold;"><br>
 </span>
-<div style="text-align: left;"><span style="font-weight: bold;">СООБЩЕНИЯ
-О
-СРАБАТЫВАНИИ СИГНАЛИЗАЦИИ</span><br>
+<div style="text-align: left;"><span style="font-weight: bold;">ALARM TRIGGERING
+MESSAGES</span><br>
 </div>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">При
-срабатывании
-сигнализации на хранящийся в памяти </span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"> телефонный
-номер будет
-передано SMS-сообщение следующего вида:<br>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">When
+the alarm is triggered,
+an SMS message of the following format will be sent to the phone number stored in the memory of </span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US">:<br>
 14</span><span style="" lang="EN-US">!</span><br>
-<span style="" lang="EN-US">где "!" -
-восклицательный знак -
-признак срабатывания сигнализации,<br>
-14 - номер сработавшего датчика сигнализации (возможная
-нумерация:&nbsp;
-01 ... 15<br>
-Если, например, 13 - это датчик открывания окна на кухне, 14 - окно в
-комнате, а 15 -
-входная дверь, то SMS-сообщение в приведенном примере информирует об
-открывании входной двери.<br>
+<span style="" lang="EN-US">where "!" -
+an exclamation mark -
+is a sign of alarm triggering,<br>
+14 - the number of the triggered alarm sensor (possible
+numbering:&nbsp;
+01 ... 15)<br>
+If, for example, 13 is a kitchen window opening sensor, 14 is a room
+window, and 15 is
+the front door, then the SMS message in the given example informs about the front door opening.<br>
 </span></p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"><span style="font-weight: bold;">РАСШИРЕННИЕ
-ВОЗМОЖНОСТЕЙ</span></span><br>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US"><span style="font-weight: bold;">EXPANDING
+THE CAPABILITIES</span></span><br>
 </p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">Контроллер </span><span style="" lang="EN-US"><span style="font-weight: bold;">ДУ GSM</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"> способен
-передавать информацию с каких-либо
-датчиков в виде SMS-сообщений как по запросу, так и через опрделенные
-интервалы времени, это может быть, например, температура, влажность,
-освещенность в теплице, уровень воды в баке и т.д. Для организации
-передачи параметра его необходимо передать в контроллер. Для
-организации соответствующей программы нужен протокол передачи данных в
-контроллер (определяется типом используемого датчика) или параметры
-аналогового сигнала, поступающего от датчика - контроллер имеет
-встроенный 10-разрядный аналого-цифровой преобразователь. <br>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">The </span><span style="" lang="EN-US"><span style="font-weight: bold;">GSM RC</span></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"> controller is capable
+of transmitting information from any
+sensors in the form of SMS messages both upon request and at specified
+time intervals; this can be, for example, temperature, humidity,
+illumination in a greenhouse, water level in a tank, etc. To organize
+the transmission of a parameter, it must be sent to the controller. To
+organize the corresponding program, a data transmission protocol to the
+controller (determined by the type of sensor used) or the parameters of the
+analog signal coming from the sensor is needed - the controller has a
+built-in 10-bit analog-to-digital converter. <br>
 </span></p>
-<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">Существующая
-программа
-микроконтроллера может быть скорректирована по пожеланиям заказчика,
-который
-может самостоятельно загрузить ее в контроллер через встроенный
-программный загрузчик микроконтроллера, для этого нужен
-компьютер, адаптер и блок питания +3,6...+5В.<br>
+<p style="text-align: left;" class="MsoNormal"><span style="" lang="EN-US">The existing
+microcontroller
+program can be adjusted according to the customer's wishes,
+who
+can independently upload it to the controller via the built-in
+microcontroller software bootloader; for this, a
+computer, an adapter, and a +3.6...+5V power supply unit are required.<br>
 </span></p>
 
 <hr style="width: 100%; height: 2px; margin-left: auto; margin-right: auto;">
